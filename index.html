@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="Hi I am Zaid Sheriff, I am a Software Engineer having more than 5 years of experience in building tech products."
+    />
+    <meta
+      name="keywords"
+      content="web development, frontend, react, javascript, portfolio, website, seo, bengaluru, india"
+    />
+    <meta name="author" content="Zaid Sheriff" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:title" content="Zaid Sheriff" />
+    <meta property="og:url" content="index.html" />
+    <meta property="og:image" content="/images/hero.png" />
+    <meta property="og:site_name" content="Zaid Sheriff" />
+    <meta
+      property="og:description"
+      content="Hi I am Zaid Sheriff, I am a Software Engineer having more than 5 years of experience in building tech products."
+    />
+    <title>Zaid Sheriff</title>
+    <link rel="stylesheet" href="/dist/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="w-full fixed t-0 py-4 bg-white shadow-md">
+      <div
+        class="flex px-5 items-center justify-between w-full max-w-screen-xl mx-auto"
+      >
+        <div class="text-3xl font-mono font-bold text-indigo-900">
+          <a href="#">Portfo<span class="text-red-500">lio.</span></a>
+        </div>
+        <ul class="hidden sm:flex space-x-10 font-bold text-indigo-900 text-lg">
+          <li class="hover:text-indigo-600">
+            <a href="#">Home</a>
+          </li>
+          <li class="hover:text-indigo-600">
+            <a href="#about">About</a>
+          </li>
+          <li class="hover:text-indigo-600">
+            <a href="#skills">Skills</a>
+          </li>
+          <li class="hover:text-indigo-600">
+            <a href="#projects">Projects</a>
+          </li>
+          <li class="hover:text-indigo-600">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+        <div
+          id="hamburger"
+          class="sm:hidden cursor-pointer z-20 text-[24px] text-indigo-900"
+        >
+          <i class="fa fa-bars"></i>
+        </div>
+        <ul
+          id="menu"
+          class="hidden flex flex-col justify-around text-lg font-bold bg-indigo-900 absolute top-0 left-0 w-full h-[100vh] p-10 text-white text-center"
+        >
+          <li>
+            <a id="hLink" href="#">Home</a>
+          </li>
+          <li>
+            <a id="hLink" href="#about">About</a>
+          </li>
+          <li>
+            <a id="hLink" href="#skills">Skills</a>
+          </li>
+          <li>
+            <a id="hLink" href="#projects">Projects</a>
+          </li>
+          <li>
+            <a id="hLink" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- intro content-->
+    <section
+      class="h-[100vh] bg-repeat bg-bottom bg-contain"
+      id="home"
+      style="background-image: url('./images/clouds.png')"
+    >
+      <div class="w-full h-full max-w-screen-xl mx-auto">
+        <div class="flex h-full px-5">
+          <div class="flex flex-col items-center justify-center w-full">
+            <div class="flex flex-col items-center justify-center">
+              <img
+                class="w-[150px] sm:w-[270px]"
+                src="./images/plane.gif"
+                alt="plane"
+              />
+              <h2
+                class="text-xl font-medium sm:text-2xl lg:text-3xl xl:text-4xl"
+              >
+                Hi 👋, I'm Zaid
+              </h2>
+              <h2
+                class="mt-6 text-2xl font-medium sm:text-3xl lg:text-4xl xl:text-5xl"
+              >
+                I'm a Frontend Engineer
+              </h2>
+              <div class="mt-5 sm:mt-8"></div>
+              <a
+                href="https://drive.google.com/file/d/1rjuM18AQlFDwxH4lZOj3BB3gDzkZbpXC/view"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button
+                  class="px-8 py-4 rounded-md text-white bg-blue-500 hover:bg-blue-400 shadow-lg shadow-blue-500/50"
+                >
+                  <span class="text-base sm:text-lg">RESUME</span>
+                  <span class="ml-1">
+                    <i class="fa fa-external-link"></i>
+                  </span>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about section -->
+    <section id="about" class="py-[75px] sm:py-[100px] bg-[#f7fafc]">
+      <div
+        class="flex flex-wrap justify-center gap-4 w-full max-w-screen-xl mx-auto px-5 sm:flex-nowrap sm:justify-between sm:items-center"
+      >
+        <div>
+          <img
+            src="./images/hero.png"
+            loading="lazy"
+            alt="hero"
+            class="w-[200px] rounded-full"
+          />
+        </div>
+        <div class="w-[100%] sm:w-[70%] lg:w-[76%] xl:w-[80%]">
+          <h2
+            class="font-mono mb-4 text-center font-medium sm:text-left text-2xl sm:text-3xl lg:text-4xl"
+          >
+            About me
+          </h2>
+          <p class="text-justify text-base sm:text-xl">
+            Hi I am Zaid Sheriff, I am a Software Engineer having more than 5
+            years of experience in building tech products. Have experience in
+            working in multiple domains(E-commerce and Healthcare).
+          </p>
+          <p class="mt-6 text-justify text-base sm:text-xl">
+            Experienced in React js, Next.js, Node.js, Express.js, Redux,
+            Javascript, jQuery, Fabric.js, MYSQL, HTML5, CSS, Tailwind CSS,
+            Material UI and Ant Design.
+          </p>
+          <p class="mt-6 text-justify text-base sm:text-xl">
+            Good team player with excellent verbal and written communication
+            skills with a strong aptitude towards learning new technologies.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- skills -->
+    <section id="skills" class="py-[75px] sm:py-[100px] bg-blue-50">
+      <div class="flex flex-col w-full max-w-screen-xl mx-auto px-5">
+        <h1
+          class="font-mono mb-4 text-center font-medium text-2xl sm:text-3xl lg:text-4xl"
+        >
+          Skills
+        </h1>
+        <div class="flex flex-wrap justify-center w-full gap-3 sm:gap-0">
+          <a
+            href="https://reactjs.org/"
+            target="_blank"
+            class="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] flex flex-col sm:m-4 p-6 border-2 hover:shadow-[0_8px_16px_0_rgba(0,0,0,0.2)] transition duration-[0.3s] rounded-[5px]"
+          >
+            <img src="./images/react.png" loading="lazy" />
+          </a>
+          <a
+            href="https://nextjs.org/"
+            target="_blank"
+            class="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] flex flex-col sm:m-4 p-6 border-2 hover:shadow-[0_8px_16px_0_rgba(0,0,0,0.2)] transition duration-[0.3s] rounded-[5px]"
+          >
+            <img src="./images/next.png" loading="lazy" />
+          </a>
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+            target="_blank"
+            class="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] flex flex-col sm:m-4 p-6 border-2 hover:shadow-[0_8px_16px_0_rgba(0,0,0,0.2)] transition duration-[0.3s] rounded-[5px]"
+          >
+            <img src="./images/javascript.png" loading="lazy" />
+          </a>
+          <a
+            href="https://www.typescriptlang.org/"
+            target="_blank"
+            class="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] flex flex-col sm:m-4 p-6 border-2 hover:shadow-[0_8px_16px_0_rgba(0,0,0,0.2)] transition duration-[0.3s] rounded-[5px]"
+          >
+            <img src="./images/typescript.png" loading="lazy" />
+          </a>
+          <a
+            href="https://nodejs.org/en"
+            target="_blank"
+            class="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] flex flex-col sm:m-4 p-6 border-2 hover:shadow-[0_8px_16px_0_rgba(0,0,0,0.2)] transition duration-[0.3s] rounded-[5px]"
+          >
+            <img src="./images/node-js.png" loading="lazy" />
+          </a>
+          <a
+            href="https://jquery.com/"
+            target="_blank"
+            class="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] flex flex-col sm:m-4 p-6 border-2 hover:shadow-[0_8px_16px_0_rgba(0,0,0,0.2)] transition duration-[0.3s] rounded-[5px]"
+          >
+            <img src="./images/jquery.png" loading="lazy" />
+          </a>
+          <a
+            href="https://redux.js.org/"
+            target="_blank"
+            class="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] flex flex-col sm:m-4 p-6 border-2 hover:shadow-[0_8px_16px_0_rgba(0,0,0,0.2)] transition duration-[0.3s] rounded-[5px]"
+          >
+            <img src="./images/redux.png" loading="lazy" />
+          </a>
+          <a
+            href="https://www.w3.org/html/"
+            target="_blank"
+            class="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] flex flex-col sm:m-4 p-6 border-2 hover:shadow-[0_8px_16px_0_rgba(0,0,0,0.2)] transition duration-[0.3s] rounded-[5px]"
+          >
+            <img src="./images/html5.png" loading="lazy" />
+          </a>
+          <a
+            href="https://www.w3schools.com/css/"
+            target="_blank"
+            class="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] flex flex-col sm:m-4 p-6 border-2 hover:shadow-[0_8px_16px_0_rgba(0,0,0,0.2)] transition duration-[0.3s] rounded-[5px]"
+          >
+            <img src="./images/css3.png" loading="lazy" />
+          </a>
+          <a
+            href="https://tailwindcss.com/"
+            target="_blank"
+            class="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] flex flex-col sm:m-4 p-6 border-2 hover:shadow-[0_8px_16px_0_rgba(0,0,0,0.2)] transition duration-[0.3s] rounded-[5px]"
+          >
+            <img src="./images/tailwind-css.png" loading="lazy" />
+          </a>
+          <a
+            href="https://mui.com/"
+            target="_blank"
+            class="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] flex flex-col sm:m-4 p-6 border-2 hover:shadow-[0_8px_16px_0_rgba(0,0,0,0.2)] transition duration-[0.3s] rounded-[5px]"
+          >
+            <img src="./images/mui.png" loading="lazy" />
+          </a>
+          <a
+            href="https://git-scm.com/"
+            target="_blank"
+            class="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] flex flex-col sm:m-4 p-6 border-2 hover:shadow-[0_8px_16px_0_rgba(0,0,0,0.2)] transition duration-[0.3s] rounded-[5px]"
+          >
+            <img src="./images/git.png" loading="lazy" />
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- projects -->
+    <section id="projects" class="py-[75px] sm:py-[100px]">
+      <div class="flex flex-col w-full max-w-screen-xl mx-auto px-5">
+        <h1
+          class="font-mono mb-4 text-center font-medium text-2xl sm:text-3xl lg:text-4xl"
+        >
+          Projects
+        </h1>
+        <div class="flex flex-wrap justify-center w-full gap-4">
+          <a
+            href="https://khana-khazzana.vercel.app/"
+            target="_blank"
+            class="w-[356px] shadow-[0_4px_8px_0_rgba(0,0,0,0.2)] hover:shadow-[0_8px_16px_0_rgba(0,0,0,0.2)] transition duration-[0.3s] rounded-md"
+          >
+            <div
+              class="h-[200px] bg-no-repeat bg-center bg-cover rounded-t-md"
+              style="background-image: url('./images/khana-khazana.png')"
+            ></div>
+            <div class="p-4">
+              <div class="font-mono font-bold text-xl">Khana Khazana</div>
+              <div class="font-normal text-sm sm:text-base">
+                Food delivery app(Swiggy clone) built using React, Parcel, Redux
+                and Tailwind.
+              </div>
+            </div>
+          </a>
+          <a
+            href="https://zaidsheriff786.github.io/love-local/"
+            target="_blank"
+            class="w-[356px] shadow-[0_4px_8px_0_rgba(0,0,0,0.2)] hover:shadow-[0_8px_16px_0_rgba(0,0,0,0.2)] transition duration-[0.3s] rounded-md"
+          >
+            <div
+              class="h-[200px] bg-no-repeat bg-center bg-cover rounded-t-md"
+              style="background-image: url('./images/adminpanel.png')"
+            ></div>
+            <div class="p-4">
+              <div class="font-mono font-bold text-xl">Admin Dashboard</div>
+              <div class="font-normal text-sm sm:text-base">
+                Admin dashboard template built using React and Chart.js.
+              </div>
+            </div>
+          </a>
+          <a
+            href="https://brands-in.shortlyst.com/liveWidgetPreview"
+            target="_blank"
+            class="w-[356px] shadow-[0_4px_8px_0_rgba(0,0,0,0.2)] hover:shadow-[0_8px_16px_0_rgba(0,0,0,0.2)] transition duration-[0.3s] rounded-md"
+          >
+            <div
+              class="h-[200px] bg-no-repeat bg-center bg-cover rounded-t-md"
+              style="background-image: url('./images/widget.png')"
+            ></div>
+            <div class="p-4">
+              <div class="font-mono font-bold text-xl">Widget Gallery</div>
+              <div class="font-normal text-sm sm:text-base">
+                Built rich media widgets for landing pages of D2C brands that
+                helps frictionless shopping from ad clicks.
+              </div>
+            </div>
+          </a>
+          <a
+            href="https://golficonic.com/products/wood-headcover-custom-builder?variant=&view=productimize"
+            target="_blank"
+            class="w-[356px] shadow-[0_4px_8px_0_rgba(0,0,0,0.2)] hover:shadow-[0_8px_16px_0_rgba(0,0,0,0.2)] transition duration-[0.3s] rounded-md"
+          >
+            <div
+              class="h-[200px] bg-no-repeat bg-center bg-cover rounded-t-md"
+              style="background-image: url('./images/golficonic.png')"
+            ></div>
+            <div class="p-4">
+              <div class="font-mono font-bold text-xl">Product Customizer</div>
+              <div class="font-normal text-sm sm:text-base">
+                Built product customization software for Golf Iconic brand for
+                customization of their products.
+              </div>
+            </div>
+          </a>
+          <a
+            href="https://zaidsheriff786.github.io/calculator/"
+            target="_blank"
+            class="w-[356px] shadow-[0_4px_8px_0_rgba(0,0,0,0.2)] hover:shadow-[0_8px_16px_0_rgba(0,0,0,0.2)] transition duration-[0.3s] rounded-md"
+          >
+            <div
+              class="h-[200px] bg-no-repeat bg-center bg-cover rounded-t-md"
+              style="background-image: url('./images/calculator.png')"
+            ></div>
+            <div class="p-4">
+              <div class="font-mono font-bold text-xl">Calculator</div>
+              <div class="font-normal text-sm sm:text-base">
+                A simple calculator app built using React.
+              </div>
+            </div>
+          </a>
+          <a
+            href="https://zaidsheriff786.github.io/Taskify/"
+            target="_blank"
+            class="w-[356px] shadow-[0_4px_8px_0_rgba(0,0,0,0.2)] hover:shadow-[0_8px_16px_0_rgba(0,0,0,0.2)] transition duration-[0.3s] rounded-md"
+          >
+            <div
+              class="h-[200px] bg-no-repeat bg-center bg-cover rounded-t-md"
+              style="background-image: url('./images/Taskify.png')"
+            ></div>
+            <div class="p-4">
+              <div class="font-mono font-bold text-xl">Taskify</div>
+              <div class="font-normal text-sm sm:text-base">
+                A simple todo app built using React and Typescript.
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- contact -->
+    <section id="contact">
+      <div
+        class="flex flex-wrap items-center justify-center p-4 gap-2 sm:gap-0 sm:flex-nowrap sm:justify-between w-full sm:p-12 bg-[#3f3434]"
+      >
+        <div
+          class="text-white font-bold font-mono text-2xl sm:text-3xl lg:text-4xl"
+        >
+          Let's Connect
+        </div>
+        <div class="flex items-center">
+          <a
+            class="mr-4"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/in/zaid-sheriff-72466a130/"
+            ><svg
+              class="w-10 h-10 transition-all duration-200 hover:opacity-75"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M36.514 3.413H5.119c-.755 0-1.365.61-1.365 1.365v31.395c0 .755.61 1.365 1.365 1.365h31.395c.755 0 1.365-.61 1.365-1.365V4.778c0-.755-.61-1.365-1.365-1.365zM13.876 32.49H8.813V16.205h5.063v16.286zm-2.53-18.512a2.935 2.935 0 112.935-2.935 2.94 2.94 0 01-2.934 2.935zM32.834 32.49h-5.06v-7.92c0-1.89-.034-4.318-2.631-4.318-2.632 0-3.037 2.056-3.037 4.18v8.058H17.05V16.205h4.854v2.227h.068c.674-1.28 2.325-2.632 4.79-2.632 5.128 0 6.07 3.374 6.07 7.76v8.931z"
+                fill="#fff"
+                fill-opacity=".9"
+              ></path>
+            </svg>
+          </a>
+          <a
+            class="mr-4"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.instagram.com/iamzaidsheriff/"
+            ><svg
+              class="w-10 h-10 transition-all duration-200 hover:opacity-75"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M20.5 12.273a8.19 8.19 0 00-8.201 8.202 8.19 8.19 0 008.202 8.202 8.19 8.19 0 008.202-8.202 8.19 8.19 0 00-8.202-8.202zm0 13.533a5.342 5.342 0 01-5.33-5.331 5.342 5.342 0 015.33-5.33 5.342 5.342 0 015.331 5.33 5.342 5.342 0 01-5.33 5.33zm8.539-15.78c-1.06 0-1.916.855-1.916 1.915s.856 1.916 1.916 1.916a1.91 1.91 0 001.915-1.916 1.912 1.912 0 00-1.915-1.915zm7.45 10.449c0-2.207.02-4.395-.104-6.598-.124-2.56-.708-4.831-2.58-6.703-1.875-1.875-4.142-2.455-6.702-2.58-2.207-.123-4.395-.103-6.598-.103-2.208 0-4.395-.02-6.599.104-2.559.124-4.83.708-6.702 2.58-1.875 1.875-2.455 4.142-2.58 6.702-.123 2.207-.103 4.395-.103 6.598 0 2.203-.02 4.395.104 6.598.124 2.56.708 4.831 2.58 6.703 1.875 1.875 4.142 2.455 6.701 2.58 2.208.123 4.395.103 6.599.103 2.207 0 4.395.02 6.598-.104 2.56-.124 4.831-.708 6.703-2.58 1.875-1.875 2.455-4.142 2.579-6.702.128-2.203.104-4.39.104-6.598zm-3.52 9.43a5.083 5.083 0 01-1.207 1.831 5.117 5.117 0 01-1.832 1.208c-2.103.836-7.098.648-9.43.648-2.33 0-7.33.188-9.433-.644a5.082 5.082 0 01-1.831-1.208 5.116 5.116 0 01-1.208-1.831c-.832-2.108-.644-7.102-.644-9.434 0-2.331-.188-7.33.644-9.434A5.082 5.082 0 019.236 9.21a5.17 5.17 0 011.831-1.208c2.104-.832 7.102-.644 9.434-.644 2.331 0 7.33-.188 9.433.644a5.082 5.082 0 011.832 1.208 5.118 5.118 0 011.208 1.831c.832 2.104.644 7.103.644 9.434 0 2.331.188 7.326-.648 9.43z"
+                fill="#fff"
+                fill-opacity=".9"
+              ></path>
+            </svg>
+          </a>
+          <a
+            class="mr-4"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/zaidsheriff786"
+            ><svg
+              class="w-10 h-10 transition-all duration-200 hover:opacity-75"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M20.472 3.051c-9.89-.004-17.9 8.002-17.9 17.884 0 7.814 5.011 14.456 11.99 16.896.94.236.795-.432.795-.888v-3.1c-5.427.637-5.646-2.955-6.01-3.554-.736-1.256-2.476-1.576-1.956-2.176 1.236-.636 2.495.16 3.955 2.316 1.056 1.563 3.115 1.3 4.16 1.04.227-.94.715-1.78 1.387-2.432-5.623-1.008-7.966-4.439-7.966-8.518 0-1.98.652-3.8 1.931-5.267-.816-2.42.076-4.49.196-4.799 2.324-.207 4.739 1.664 4.927 1.812 1.32-.356 2.827-.544 4.515-.544 1.696 0 3.207.196 4.539.556.452-.344 2.691-1.951 4.85-1.756.117.308.988 2.332.22 4.72 1.296 1.47 1.956 3.306 1.956 5.29 0 4.087-2.36 7.522-7.998 8.514a5.099 5.099 0 011.524 3.639v4.499c.032.36 0 .716.6.716 7.082-2.388 12.18-9.078 12.18-16.96 0-9.886-8.013-17.888-17.895-17.888z"
+                fill="#fff"
+                fill-opacity=".9"
+              ></path>
+            </svg>
+          </a>
+          <a
+            class="mr-4"
+            href="mailto:mszaid.007@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="#fff"
+              class="w-10 h-10"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+    <script src="./app.js"></script>
+  </body>
+</html>
