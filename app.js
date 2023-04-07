@@ -1,1 +1,30 @@
-const t=document.querySelector("#hamburger");const a=document.querySelector("#menu");const e=document.querySelectorAll("#hLink");let c=false;t.addEventListener("click",()=>{if(!c){a.classList.toggle("hidden");t.classList.toggle("text-white");t.children[0].classList.remove("fa-bars");t.children[0].classList.add("fa-close");c=true}else{a.classList.toggle("hidden");t.classList.toggle("text-white");t.children[0].classList.remove("fa-close");t.children[0].classList.add("fa-bars");c=false}});e.forEach(e=>{e.addEventListener("click",()=>{a.classList.toggle("hidden");t.classList.toggle("text-white");t.children[0].classList.remove("fa-close");t.children[0].classList.add("fa-bars");c=false})});
+const hamburger = document.querySelector('#hamburger');
+const menu = document.querySelector('#menu');
+const hLinks = document.querySelectorAll('#hLink');
+let showMenu = false;
+
+hamburger.addEventListener('click', () => {
+  if (!showMenu) {
+    menu.classList.toggle('hidden');
+    hamburger.classList.toggle('text-white');
+    hamburger.children[0].classList.remove('fa-bars');
+    hamburger.children[0].classList.add('fa-close');
+    showMenu = true;
+  } else {
+    menu.classList.toggle('hidden');
+    hamburger.classList.toggle('text-white');
+    hamburger.children[0].classList.remove('fa-close');
+    hamburger.children[0].classList.add('fa-bars');
+    showMenu = false;
+  }
+});
+
+hLinks.forEach((link) => {
+  link.addEventListener('click', () => {
+    menu.classList.toggle('hidden');
+    hamburger.classList.toggle('text-white');
+    hamburger.children[0].classList.remove('fa-close');
+    hamburger.children[0].classList.add('fa-bars');
+    showMenu = false;
+  });
+});
